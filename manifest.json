@@ -1,0 +1,23 @@
+{
+  "name": "Smoke",
+  "description": "Replies \"smoke ok\" when /smoke is invoked.",
+  "ubiquity:listeners": ["issue_comment.created"],
+  "skipBotEvents": true,
+  "commands": {
+    "smoke": {
+      "ubiquity:example": "/smoke",
+      "description": "Replies with smoke ok and context.",
+      "parameters": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  "configuration": {
+    "default": {},
+    "type": "object",
+    "properties": {}
+  },
+  "homepage_url": "https://github.com/ubiquity-os-marketplace/command-smoke",
+  "short_name": "ubiquity-os-marketplace/command-smoke@main"
+}
